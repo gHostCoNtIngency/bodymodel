@@ -1,0 +1,290 @@
+newmtl Std_Tongue
+    Ns 2.000000
+    d 1.000000
+    Ka 0.490196 0.490196 0.490196
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.900000 0.900000 0.900000
+    map_Kd Kevin/Std_Tongue_diffuse.png
+    norm Kevin/Std_Tongue_normal.png
+    map_Pm Kevin/Std_Tongue_metallic.png
+    map_Pr Kevin/Std_Tongue_roughness.png
+    ao Kevin/Std_Tongue_ao.png
+    Shader__MicroNormal Kevin/Std_Tongue_MicroNormal.png
+    Shader__GradientAO Kevin/Std_Tongue_GradientAO.jpg
+newmtl Std_Skin_Head
+    Ns 20.000000
+    d 1.000000
+    Ka 0.490196 0.490196 0.490196
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.269400 0.269400 0.269400
+    map_Kd Kevin/Std_Skin_Head_diffuse.jpg
+    norm Kevin/Std_Skin_Head_normal.jpg
+    map_Pm Kevin/Std_Skin_Head_metallic.jpg
+    map_Pr Kevin/Std_Skin_Head_roughness.jpg
+    ao Kevin/Std_Skin_Head_ao.jpg
+    map_WrinkleDiff1 Kevin/Std_Skin_Head_Wrinkle_Diffuse1.jpg
+    map_WrinkleNormal1 Kevin/Std_Skin_Head_Wrinkle_Normal1.png
+    map_WrinkleRoughness1 Kevin/Std_Skin_Head_Wrinkle_Roughness1.jpg
+    map_WrinkleDiff2 Kevin/Std_Skin_Head_Wrinkle_Diffuse2.jpg
+    map_WrinkleNormal2 Kevin/Std_Skin_Head_Wrinkle_Normal2.png
+    map_WrinkleRoughness2 Kevin/Std_Skin_Head_Wrinkle_Roughness2.jpg
+    map_WrinkleDiff3 Kevin/Std_Skin_Head_Wrinkle_Diffuse3.jpg
+    map_WrinkleNormal3 Kevin/Std_Skin_Head_Wrinkle_Normal3.png
+    map_WrinkleRoughness3 Kevin/Std_Skin_Head_Wrinkle_Roughness3.jpg
+    Resource__Position Kevin/Std_Skin_Head_Resource__Position.png
+    Resource__WSNormal Kevin/Std_Skin_Head_Resource__WSNormal.png
+    Shader__SpecularMask Kevin/Std_Skin_Head_SpecularMask.jpg
+    Shader__TransmissionMap Kevin/Std_Skin_Head_TransmissionMap.jpg
+    Shader__MouthCavityMaskandAO Kevin/Std_Skin_Head_MouthCavityMaskandAO.tga
+    Shader__SSSMap Kevin/Std_Skin_Head_SSSMap.jpg
+    Shader__MicroNormal Kevin/Std_Tongue_MicroNormal.png
+    Shader__CheekForeUpperLipChinMask Kevin/Std_Skin_Head_CheekForeUpperLipChinMask.tga
+    Shader__EarNeckMask Kevin/Std_Skin_Head_EarNeckMask.tga
+    Shader__NoseMouthUpperInnerLidMask Kevin/Std_Skin_Head_NoseMouthUpperInnerLidMask.tga
+    Shader__BaseColorBlend2 Kevin/Std_Skin_Head_BaseColorBlend2.jpg
+    Shader__NormalMapBlend Kevin/Std_Skin_Head_NormalMapBlend.jpg
+    Shader__MicroNormalMask Kevin/Std_Skin_Head_MicroNormalMask.png
+    Shader__BlendMask Kevin/Std_Skin_Head_BlendMask.png
+newmtl Std_Skin_Leg
+    Ns 20.000000
+    d 1.000000
+    Ka 0.490196 0.490196 0.490196
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.269400 0.269400 0.269400
+    map_Kd Kevin/Std_Skin_Leg_diffuse.jpg
+    norm Kevin/Std_Skin_Leg_normal.png
+    map_Pm Kevin/Std_Skin_Leg_metallic.jpg
+    map_Pr Kevin/Std_Skin_Leg_roughness.jpg
+    ao Kevin/Std_Skin_Leg_ao.jpg
+    Shader__TransmissionMap Kevin/Std_Skin_Leg_TransmissionMap.png
+    Shader__RGBAAreaMask Kevin/Std_Skin_Leg_RGBAAreaMask.tga
+    Shader__SSSMap Kevin/Std_Skin_Leg_SSSMap.png
+    Shader__MicroNormal Kevin/Std_Tongue_MicroNormal.png
+    Shader__MicroNormalMask Kevin/Std_Skin_Leg_MicroNormalMask.jpg
+newmtl Std_Tearline_L
+    Ns 1.000000
+    d 1.000000
+    Ka 0.000000 0.000000 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.000000 0.000000 0.000000
+    map_Kd Kevin/Std_Tearline_L_diffuse.jpg
+    map_D Kevin/Std_Tearline_L_opacity.jpg
+    map_Pm Kevin/Std_Tearline_L_metallic.jpg
+    map_Pr Kevin/Std_Tearline_L_roughness.jpg
+    Shader__Normal Kevin/Std_Tearline_L_Normal.tga
+newmtl Std_Skin_Body
+    Ns 20.000000
+    d 1.000000
+    Ka 0.490196 0.490196 0.490196
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.269400 0.269400 0.269400
+    map_Kd Kevin/Std_Skin_Body_diffuse.jpg
+    norm Kevin/Std_Skin_Body_normal.png
+    map_Pm Kevin/Std_Skin_Body_metallic.jpg
+    map_Pr Kevin/Std_Skin_Body_roughness.jpg
+    ao Kevin/Std_Skin_Body_ao.jpg
+    Resource__Position Kevin/Std_Skin_Body_Resource__Position.png
+    Resource__WSNormal Kevin/Std_Skin_Body_Resource__WSNormal.png
+    Shader__TransmissionMap Kevin/Std_Skin_Body_TransmissionMap.png
+    Shader__RGBAAreaMask Kevin/Std_Skin_Body_RGBAAreaMask.tga
+    Shader__SSSMap Kevin/Std_Skin_Body_SSSMap.png
+    Shader__MicroNormal Kevin/Std_Tongue_MicroNormal.png
+    Shader__MicroNormalMask Kevin/Std_Skin_Body_MicroNormalMask.jpg
+newmtl Std_Skin_Arm
+    Ns 20.000000
+    d 1.000000
+    Ka 0.490196 0.490196 0.490196
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.269400 0.269400 0.269400
+    map_Kd Kevin/Std_Skin_Arm_diffuse.jpg
+    norm Kevin/Std_Skin_Arm_normal.png
+    map_Pm Kevin/Std_Skin_Arm_metallic.jpg
+    map_Pr Kevin/Std_Skin_Arm_roughness.jpg
+    ao Kevin/Std_Skin_Arm_ao.jpg
+    Resource__Position Kevin/Std_Skin_Arm_Resource__Position.png
+    Resource__WSNormal Kevin/Std_Skin_Arm_Resource__WSNormal.png
+    Shader__TransmissionMap Kevin/Std_Skin_Arm_TransmissionMap.png
+    Shader__RGBAAreaMask Kevin/Std_Skin_Arm_RGBAAreaMask.tga
+    Shader__SSSMap Kevin/Std_Skin_Arm_SSSMap.png
+    Shader__MicroNormal Kevin/Std_Tongue_MicroNormal.png
+    Shader__MicroNormalMask Kevin/Std_Skin_Arm_MicroNormalMask.jpg
+newmtl Std_Nails
+    Ns 20.000000
+    d 1.000000
+    Ka 0.490196 0.490196 0.490196
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.269400 0.269400 0.269400
+    map_Kd Kevin/Std_Nails_diffuse.png
+    norm Kevin/Std_Nails_normal.png
+    map_Pm Kevin/Std_Nails_metallic.jpg
+    map_Pr Kevin/Std_Nails_roughness.jpg
+    ao Kevin/Std_Nails_ao.jpg
+    Shader__TransmissionMap Kevin/Std_Nails_TransmissionMap.png
+    Shader__RGBAAreaMask Kevin/Std_Nails_RGBAAreaMask.tga
+    Shader__SSSMap Kevin/Std_Nails_SSSMap.jpg
+    Shader__MicroNormal Kevin/Std_Tongue_MicroNormal.png
+    Shader__MicroNormalMask Kevin/Std_Nails_MicroNormalMask.jpg
+newmtl Std_Tearline_R
+    Ns 1.000000
+    d 1.000000
+    Ka 0.000000 0.000000 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.000000 0.000000 0.000000
+    map_Kd Kevin/Std_Tearline_R_diffuse.jpg
+    map_D Kevin/Std_Tearline_L_opacity.jpg
+    map_Pm Kevin/Std_Tearline_R_metallic.jpg
+    map_Pr Kevin/Std_Tearline_R_roughness.jpg
+    Shader__Normal Kevin/Std_Tearline_L_Normal.tga
+newmtl Std_Eyelash
+    Ns 2.000000
+    d 1.000000
+    Ka 0.490196 0.490196 0.490196
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.900000 0.900000 0.900000
+    map_Kd Kevin/Std_Eyelash_diffuse.jpg
+    map_D Kevin/Std_Eyelash_opacity.jpg
+    norm Kevin/Std_Eyelash_normal.png
+    map_Pm Kevin/Std_Eyelash_metallic.jpg
+    map_Pr Kevin/Std_Eyelash_roughness.jpg
+    ao Kevin/Std_Eyelash_ao.jpg
+newmtl Male_Brow_Base
+    Ns 10.000000
+    d 0.900000
+    Ka 0.501961 0.501961 0.501961
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+    map_Kd Kevin/Male_Brow_Base_diffuse.png
+    map_D Kevin/Male_Brow_Base_opacity.jpg
+    map_Pm Kevin/Male_Brow_Base_metallic.png
+    map_Pr Kevin/Male_Brow_Base_roughness.png
+newmtl Std_Eye_Occlusion_L
+    Ns 1.000000
+    d 1.000000
+    Ka 0.000000 0.000000 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.000000 0.000000 0.000000
+    map_Kd Kevin/Std_Eye_Occlusion_L_diffuse.jpg
+    map_D Kevin/Std_Eye_Occlusion_L_opacity.jpg
+    map_Pm Kevin/Std_Eye_Occlusion_L_metallic.jpg
+    map_Pr Kevin/Std_Eye_Occlusion_L_roughness.jpg
+    Shader__EyeOcclusion Kevin/Std_Eye_Occlusion_L_EyeOcclusion.png
+newmtl Std_Cornea_L
+    Ns 1.000000
+    d 1.000000
+    Ka 0.482353 0.482353 0.482353
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.898039 0.898039 0.898039
+    map_Kd Kevin/Std_Cornea_L_diffuse.png
+    map_Pm Kevin/Std_Cornea_L_metallic.jpg
+    map_Pr Kevin/Std_Cornea_L_roughness.jpg
+    blend Kevin/Std_Cornea_L_blend.png
+    ao Kevin/Std_Cornea_L_ao.jpg
+    Shader__IrisNormal Kevin/Std_Cornea_L_IrisNormal.png
+    Shader__ScleraNormal Kevin/Std_Cornea_L_ScleraNormal.png
+    Shader__IrisDisplacement Kevin/Std_Cornea_L_IrisDisplacement.hdr
+    Shader__EyeBlendMap2 Kevin/Std_Cornea_L_EyeBlendMap2.jpg
+    Shader__InnerIrisMask Kevin/Std_Cornea_L_InnerIrisMask.png
+    Shader__Sclera Kevin/Std_Cornea_L_Sclera.png
+newmtl Std_Cornea_R
+    Ns 1.000000
+    d 1.000000
+    Ka 0.482353 0.482353 0.482353
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.898039 0.898039 0.898039
+    map_Kd Kevin/Std_Cornea_R_diffuse.png
+    map_Pm Kevin/Std_Cornea_R_metallic.jpg
+    map_Pr Kevin/Std_Cornea_R_roughness.jpg
+    blend Kevin/Std_Cornea_R_blend.png
+    ao Kevin/Std_Cornea_R_ao.jpg
+    Shader__IrisNormal Kevin/Std_Cornea_R_IrisNormal.png
+    Shader__ScleraNormal Kevin/Std_Cornea_R_ScleraNormal.png
+    Shader__IrisDisplacement Kevin/Std_Cornea_R_IrisDisplacement.hdr
+    Shader__EyeBlendMap2 Kevin/Std_Cornea_R_EyeBlendMap2.jpg
+    Shader__InnerIrisMask Kevin/Std_Cornea_R_InnerIrisMask.png
+    Shader__Sclera Kevin/Std_Cornea_R_Sclera.png
+newmtl Male_Brow
+    Ns 10.000000
+    d 1.000000
+    Ka 0.501961 0.501961 0.501961
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+    map_Kd Kevin/Male_Brow_diffuse.png
+    map_D Kevin/Male_Brow_opacity.jpg
+    map_Ks Kevin/Male_Brow_specular.png
+    map_Pm Kevin/Male_Brow_metallic.png
+    map_Pr Kevin/Male_Brow_roughness.png
+    Shader__HairRootMap Kevin/Male_Brow_HairRootMap.jpg
+    Shader__HairIDMap Kevin/Male_Brow_HairIDMap.png
+newmtl Std_Eye_R
+    Ns 20.000000
+    d 1.000000
+    Ka 0.196078 0.196078 0.196078
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.898039 0.898039 0.898039
+    map_Kd Kevin/Std_Eye_R_diffuse.jpg
+    norm Kevin/Std_Eye_R_normal.png
+    map_Pm Kevin/Std_Eye_R_metallic.jpg
+    map_Pr Kevin/Std_Eye_R_roughness.jpg
+newmtl Std_Eye_Occlusion_R
+    Ns 1.000000
+    d 1.000000
+    Ka 0.000000 0.000000 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.000000 0.000000 0.000000
+    map_Kd Kevin/Std_Eye_Occlusion_R_diffuse.jpg
+    map_D Kevin/Std_Eye_Occlusion_R_opacity.jpg
+    map_Pm Kevin/Std_Eye_Occlusion_R_metallic.jpg
+    map_Pr Kevin/Std_Eye_Occlusion_R_roughness.jpg
+    Shader__EyeOcclusion Kevin/Std_Eye_Occlusion_L_EyeOcclusion.png
+newmtl Std_Upper_Teeth
+    Ns 2.000000
+    d 1.000000
+    Ka 0.490196 0.490196 0.490196
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.000000 0.000000 0.000000
+    map_Kd Kevin/Std_Upper_Teeth_diffuse.jpg
+    norm Kevin/Std_Upper_Teeth_normal.png
+    map_Pm Kevin/Std_Upper_Teeth_metallic.png
+    map_Pr Kevin/Std_Upper_Teeth_roughness.jpg
+    ao Kevin/Std_Upper_Teeth_ao.jpg
+    Shader__MicroNormal Kevin/Std_Upper_Teeth_MicroNormal.png
+    Shader__GradientAO Kevin/Std_Tongue_GradientAO.jpg
+    Shader__GumsMask Kevin/Std_Upper_Teeth_GumsMask.jpg
+newmtl Std_Eye_L
+    Ns 20.000000
+    d 1.000000
+    Ka 0.196078 0.196078 0.196078
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.898039 0.898039 0.898039
+    map_Kd Kevin/Std_Eye_L_diffuse.jpg
+    norm Kevin/Std_Eye_L_normal.png
+    map_Pm Kevin/Std_Eye_L_metallic.jpg
+    map_Pr Kevin/Std_Eye_L_roughness.jpg
+newmtl Boxers
+    Ns 14.000000
+    d 1.000000
+    Ka 0.815686 0.815686 0.815686
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.898039 0.898039 0.898039
+    map_Kd Kevin/Boxers_diffuse.png
+    norm Kevin/Boxers_normal.png
+    map_Ks Kevin/Boxers_specular.png
+    map_Pm Kevin/Boxers_metallic.png
+    map_Pr Kevin/Boxers_roughness.png
+    glow Kevin/Boxers_glow.png
+    disp Kevin/Boxers_displacement.png
+    ao Kevin/Boxers_ao.png
+newmtl Std_Lower_Teeth
+    Ns 2.000000
+    d 1.000000
+    Ka 0.490196 0.490196 0.490196
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.000000 0.000000 0.000000
+    map_Kd Kevin/Std_Lower_Teeth_diffuse.png
+    norm Kevin/Std_Lower_Teeth_normal.png
+    map_Pm Kevin/Std_Lower_Teeth_metallic.png
+    map_Pr Kevin/Std_Lower_Teeth_roughness.jpg
+    ao Kevin/Std_Lower_Teeth_ao.jpg
+    Shader__MicroNormal Kevin/Std_Upper_Teeth_MicroNormal.png
+    Shader__GradientAO Kevin/Std_Tongue_GradientAO.jpg
+    Shader__GumsMask Kevin/Std_Upper_Teeth_GumsMask.jpg
